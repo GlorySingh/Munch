@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Munch - Order, takeaway & free food delivery</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/munch logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="top-message">
+      We're open and available for takeaway & delivery.
+      <a href="#">Order Now</a>
+    </div>
+    <div class="nav-bar">
+      <a class="logo" href="http://"
+        ><img src="./assets/munch logo.svg" alt="munch-logo"
+      /></a>
+      <nav>
+        <a href="">Home</a>
+        <a href="">Order</a>
+        <a href="">Company</a>
+        <a href="">Contact</a>
+        <button class="cart-btn">
+          <img src="./assets/ShoppingCartSimple.svg" alt="food cart" />
+        </button>
+      </nav>
+    </div>
+    <section class="hero-section">
+      <div class="hero-div">
+        <h1>
+          Delivering delicious & <span class="quality">quality</span> food to
+          your doorstep.
+        </h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500.
+        </p>
+        <button class="place-an-order"><a href="#">Place an Order</a></button>
+      </div>
+
+      <img src="./assets/hero-img.jpg" alt="man-eating-burger" />
+    </section>
+    <section class="how-it-works">
+      <h1>How it works.</h1>
+      <div class="steps-box">
+        <div class="steps">
+          <img src="./assets/step1.jpg" alt="" class="step-img" />
+          <div class="step-text">
+            <h3>Choose your favourite items</h3>
+            <p>
+              Easily adapt your menu using the webflow CMS and allow customers
+              to browse your items.
+            </p>
+          </div>
+        </div>
+        <div class="steps">
+          <img src="./assets/add-to-cart.svg" alt="" class="step-img" />
+          <div class="step-text">
+            <h3>Add to cart</h3>
+            <p>
+              Easily adapt your menu using the webflow CMS and allow customers
+              to browse your items.
+            </p>
+          </div>
+        </div>
+        <div class="steps">
+          <img src="./assets/place-your-order.svg" alt="" class="step-img" />
+          <div class="step-text">
+            <h3>Place your order</h3>
+            <p>
+              Manage your own logistics and take orders simply through the
+              ecommerce system.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="browse-our-menu">
+      <div class="menu-text-top">
+        <h1>Browse our menu</h1>
+        <p>
+          Use our menu to place an order online, or phone our store to place a
+          pickup order. Fast and fresh food.
+        </p>
+      </div>
+      <div class="menu-buttons">
+        <button class="menu-btn"><a href="#">Burgers</a></button>
+        <button class="menu-btn"><a href="#">Sides</a></button>
+        <button class="menu-btn"><a href="#">Beverages</a></button>
+      </div>
+      <div class="menu">
+        <div class="menu-card">
+          <img src="./assets/burger-dreams.jpg" alt="" class="burger" />
+          <div class="content">
+            <div>
+              <h4>Burger dreams</h4>
+              <span>$ 9.20</span>
+              <p>
+                Filled with grilled beaf, tomatoes, lettuce and cheese, this
+                burger is best when hunger is over the head.
+              </p>
+            </div>
+            <div class="qty">
+              <input type="number" id="qty" min="1" max="5" />
+              <button class="add-to-cart">
+                <a href="#">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="./assets/burger-munch.jpg" alt="" class="burger" />
+          <div class="content">
+            <div>
+              <h4>Burger munch</h4>
+              <span>$ 8.30</span>
+              <p>
+                Our restaurant's signature burger which will leave you wanting
+                more and more.
+              </p>
+            </div>
+            <div class="qty">
+              <input type="number" id="qty" min="1" max="5" />
+              <button class="add-to-cart">
+                <a href="#">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="./assets/burger-spicy.jpg" alt="" class="burger" />
+          <div class="content">
+            <div>
+              <h4>Burger spicy</h4>
+              <span>$ 11.20</span>
+              <p>
+                Filled with kimchi and green chillies; best suited for those
+                looking for a spicy snack.
+              </p>
+            </div>
+            <div class="qty">
+              <input type="number" id="qty" min="1" max="5" />
+              <button class="add-to-cart">
+                <a href="#">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="./assets/burger-classic.jpg" alt="" class="burger" />
+          <div class="content">
+            <div>
+              <h4>Burger classic</h4>
+              <span>$ 10.31</span>
+              <p>Classic burger-loved by everyone everywhere every time.</p>
+            </div>
+            <div class="qty">
+              <input type="number" id="qty" min="1" max="5" />
+              <button class="add-to-cart">
+                <a href="#">Add to Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="full-menu"><a href="">See Full Menu</a></button>
+    </section>
+    <section class="call-us">
+      <div class="call-us-text">
+        <h2>Call our store and takeaway when it suits you best.</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500.
+        </p>
+        <button class="call-button">
+          <a href="#">Ph. +91 9xxx x2xx x0</a>
+        </button>
+      </div>
+      <img src="./assets/restaurant.jpg" alt="restaurant" />
+    </section>
+    <section class="support">
+      <img src="./assets/burger-restaurant.jpg" alt="" />
+      <div class="support-text">
+        <p>
+          <span class="support-word">Support</span> good food and local
+          business.
+        </p>
+        <button class="order-now"><a href="#">Order now</a></button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-box1">
+        <div class="logo-div">
+          <img src="./assets/munch logo.svg" alt="munch-logo" />
+          <p>Takeaway & Delivery template for small - medium businesses.</p>
+        </div>
+        <div class="company-div">
+          <nav class="company">
+            <h4>COMPANY</h4>
+            <a href="">Home</a>
+            <a href="">Order</a>
+            <a href="">Contact</a>
+          </nav>
+          <nav class="company">
+            <h4>COMPANY</h4>
+            <a href="">Home</a>
+            <a href="">Order</a>
+            <a href="">Contact</a>
+          </nav>
+          <nav class="company">
+            <h4>COMPANY</h4>
+            <a href="">Home</a>
+          </nav>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="lower-footer">
+        <span class="munch">Munch 2021.</span>
+        <div class="social-media">
+          <div class="icon-circle">
+            <a href="https://www.instagram.com/kawaii_arlert/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <div class="icon-circle">
+            <a
+              href="https://www.linkedin.com/in/glory-singh-912412192/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="icon-circle">
+            <a href="https://github.com/GlorySingh" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
